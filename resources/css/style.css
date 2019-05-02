@@ -113,6 +113,11 @@ header .mobile {
 /* Sign Up Section */
 
 #sign-up-section {
+  width: 100%;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -338,7 +343,7 @@ header .mobile {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
