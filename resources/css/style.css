@@ -176,7 +176,7 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
-  padding: 4rem 0;
+  padding: 4rem 1%;
   background-color: #4a4a4a;
 }
 
@@ -192,6 +192,8 @@ header .mobile {
 }
 
 #filters-section .content h3 {
+  width: 30rem;
+  margin: 0.5rem auto 0 auto;
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
@@ -199,8 +201,13 @@ header .mobile {
 }
 
 #filters-section .images-container {
-  max-width: 100%;
-  padding: 0 1%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#filters-section img {
+  width: 25%;
+  height: auto;
 }
 
 /* Quotes Section */
