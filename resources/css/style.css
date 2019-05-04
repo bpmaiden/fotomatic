@@ -76,7 +76,7 @@ header .mobile {
   display: none;
 }
 
-/* Sign Up Section */
+/* Sign-up Section */
 
 #sign-up-section {
   padding: 170px 0 0 100px;
@@ -149,14 +149,18 @@ header .mobile {
   background-color: white;
 }
 
-.feature .image-container {
-  width: 90%;
-  height: 65%;
-  margin: 0 auto;
+.feature img {
+  width: 100%;
+  height: auto;
+}
+
+.feature .content {
+  height: 108px;
 }
 
 .feature h2 {
-  padding-bottom: .5rem;
+  margin-top: 40px;
+  padding-bottom: 0.5rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
