@@ -213,15 +213,13 @@ header .mobile {
 /* Quotes Section */
 
 #quotes-section {
+  display: flex;
+  justify-content: center;
   background-color: #f3f3f3;
-}
-
-#quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section .quote {
-  padding-right: 1.875rem;
+#quotes-section p {
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
@@ -229,8 +227,11 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section img {
+  width: auto;
   height: 1.875rem;
+  margin-left: 1.875rem;
+  display: block;
 }
 
 /* Footer */
