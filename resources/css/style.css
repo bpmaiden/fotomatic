@@ -258,7 +258,7 @@ footer .copyright {
 
 /*** MEDIA QUERIES ***/
 
-/* 930 Pixel Breakpoint - reduce title size in Feature area  */
+/* 930px Breakpoint - smaller Feature titles  */
 
 @media only screen and (max-width: 930px) {
   .feature h2 {
@@ -272,7 +272,7 @@ footer .copyright {
   }
 }
 
-  /* 780 Pixel Breakpoint - tablet view */
+  /* 780px Breakpoint - tablet view */
 
 @media only screen and (max-width: 780px) {
   header .content {
@@ -296,12 +296,13 @@ footer .copyright {
     align-items: center;
     justify-content: center;
     height: 28rem;
+    padding: 0;
   }
 
   #sign-up-cta {
-    position: static;
     width: auto;
     height: auto;
+    padding: 0;
     background-color: transparent;
     border: none;
   }
@@ -320,16 +321,6 @@ footer .copyright {
 
   #sign-up-cta h2 {
     font-size: 2.25rem;
-  }
-
-  #features-section {
-    flex-flow: column;
-    padding: 0;
-  }
-
-  .feature {
-    margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
   }
 
   #filters-section {
@@ -376,7 +367,7 @@ footer .copyright {
   }
 }
 
-/* 680 Pixel Breakpoint - graphical header */
+/* 680px Breakpoint - graphical header */
 
 @media only screen and (max-width: 680px) {
   .main-content {
@@ -419,9 +410,19 @@ footer .copyright {
     line-height: 1.6;
     color: white;
   }
+
+  #features-section {
+    flex-flow: column;
+    padding: 0;
+  }
+
+  .feature {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
 }
 
-/* 450 Pixel Breakpoint - smartphone view */
+/* 450px Breakpoint - smartphone view */
 
 @media only screen and (max-width: 450px) {
   #sign-up-section {
